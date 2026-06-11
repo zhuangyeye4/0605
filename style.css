@@ -1,0 +1,18 @@
+/* 負責匯入各個拆分好的模組樣式檔案 */
+@import url(_layout.css);
+@import url(_typography.css);
+@import url(_nav.css);
+@import url(_media.css);
+@import url(_table.css);
+@import url(_helper.css);
+@import url(_theme.css);
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  color: #182022;
+  background-color: #0b0b0b; /* 配合科技藝術風格改成質感深色底 */
+}
+
+.site-logo {
+  letter-spacing: 0.08em;
+}
